@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/conaryHernandez/webpack-4-setup#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.1.2"
