@@ -20,7 +20,8 @@
   "homepage": "https://github.com/conaryHernandez/webpack-4-setup#readme",
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
