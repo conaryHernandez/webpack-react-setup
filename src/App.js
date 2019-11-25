@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import "../sass/index.scss"
 
 class App extends Component {
 
