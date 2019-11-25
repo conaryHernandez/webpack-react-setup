@@ -1,9 +1,11 @@
 import React, { Component, Fragment } from 'react';
-import {Link} from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import Users from './containers/Users';
 import asyncComponent from './hoc/asyncComponent';
 
-const Pizza = asyncComponent(() => import( './containers/Pizza'))
+const Pizza = asyncComponent(() => {
+    return import( './containers/Pizza');
+});
 
 class App extends Component {
 
